@@ -13,6 +13,10 @@ def Pepper(string):
     pepper = string
 
 class SHA256:
+    """
+    Represents the SHA256 Class
+    
+    """
     def HashSaltPepper(string):
         global pepper
         global maxRandLen
